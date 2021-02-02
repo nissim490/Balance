@@ -1,0 +1,13 @@
+._headBar {
+    height: 7.5rem;
+    background-color:rgb(2, 8, 14);
+    grid-row: 1/ 2;
+   
+    display: flex;
+    justify-content: flex-end;
+    @media only screen and (max-width: $bp-medium) {
+    
+        display: none !important;
+     grid-column: 2/3;
+    }
+}

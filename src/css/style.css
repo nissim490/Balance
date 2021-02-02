@@ -1,0 +1,460 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+  html{font-size:62.5%}
+  @media only screen and (max-width: 75em)
+  {html{font-size:56.25%}}@media only screen and (max-width: 56.25em)
+  {html{font-size:50%}}@media only screen and (min-width: 112.5em)
+  {html{font-size:75%}}
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem; }
+
+@media only screen and (min-width: 1023px)
+{
+
+  .tour-item__image2 {
+    height: 45rem;
+   
+  
+  } 
+  .heading-primary--main {
+    display: block;
+    font-size: 5rem;
+    font-weight: 400;
+    /* letter-spacing: 3.5rem; */
+    margin-top: 22rem;
+    color: rgb(255, 255, 255);
+  }
+ 
+}
+.heading-primary--HeadBar {
+  display: block;
+  margin-top: 4rem;
+  margin-right: 3.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color:rgb(102, 0, 32);
+  letter-spacing:0.6rem;
+  
+ }
+.heading-primary {
+
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    
+    font-weight: 400;
+    color: rgb(24, 13, 13);
+    letter-spacing:1.5rem;
+    /* animation-duration: 1s; */
+  
+    /*
+        animation-delay: 3s;
+        animation-iteration-count: 3;
+        */ }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    }
+
+.heading-secondary {
+  margin-top: 11rem;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #070606, #000000);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .heading-secondary:hover {
+    
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+@media only screen and (min-width: 1025px){
+   
+      .weather-icon-nav1{
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-left: -1.5rem;
+     margin-bottom: -1.6rem;
+      }
+      .weather-icon-nav2{
+        width: 2rem;
+        height: 2.5rem;
+        margin-left: -4rem;
+       margin-top: -2.4rem;
+      }
+      .weather-icon-nav{
+        width: 2.3rem;
+        height: 2.3rem;
+        margin-left: -1.5rem;
+        margin-bottom: -1.9rem;
+      }
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 7rem;
+  left: 6.1rem;
+ /*  right: 156rem; */
+  background-image: radial-gradient( rgb(26, 21, 71), #050101);
+  z-index: 1000;
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+    .HomeIcon{
+      height:  16rem;
+      width: 17rem;
+      margin-left: 2rem;
+     margin-bottom: -6rem;
+    }
+  }
+  @media only screen and (max-width: 480px)
+  {
+    .heading-primary--main {
+      
+      font-size: 2rem;
+     margin-top: -7rem;
+    }
+    .tour-item__image2 {
+      height: 30rem;
+    
+    
+    } 
+    .b_item{
+    
+     
+     
+      margin-top: -8.5rem;
+    }
+    }
+    @media only screen and (max-width: 50em)
+    {
+      .weather-icon-nav{
+       
+        margin-bottom: -3rem;
+      }
+      .weather-icon-nav2{
+       
+        margin-right: -6rem;
+        margin-top: 2rem;
+     
+      }
+      .heading-primary--HeadBar {
+
+        display: block;
+        margin-top: 4rem;
+        margin-right: 3.5rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+        color:rgb(102, 0, 32);
+        letter-spacing:0.6rem;
+        
+        
+       }}
+  @media only screen and (max-width: 800px)
+{
+  .heading-primary--HeadBar {
+    display: block;
+    margin-top: 4rem;
+    margin-right: 3.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color:rgb(102, 0, 32);
+    letter-spacing:0.6rem;
+    
+   }
+  .weather-icon-nav1{
+    width: 0.75rem;
+    height: 0.75rem;
+   margin-left: -1rem;
+   margin-bottom: -0.7rem;
+   margin-top: 2.1rem;
+  }
+  .weather-icon-nav{
+    width: 0.75rem;
+    height: 0.75rem;
+   margin-left: -1rem;
+   margin-bottom: -0.7rem;
+   margin-top: 2.1rem;
+  }
+  .heading-primary--main {
+   
+    font-size: 2rem;
+    margin-top: 19rem;
+    letter-spacing:0.2rem;
+  }
+  .navigation__button {
+    background-color: rgb(26, 21, 71);
+    height: 8rem;
+    width: 7.9rem;
+    position: absolute;
+ /*    top: 6rem;
+    right: 154.8rem; */
+  
+    z-index: 2000;
+   
+    text-align: center;
+    cursor: pointer; }
+}
+  
+.navigation__checkbox {
+  display: none; }
+
+
+
+
+.navigation__nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%; }
+
+.navigation__item {
+  margin: 1rem; }
+
+.navigation__link:link, .navigation__link:visited {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+  background-size: 220%;
+  transition: all .4s; }
+  .navigation__link:link span, .navigation__link:visited span {
+    margin-right: 1.5rem;
+    display: inline-block; }
+
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%;
+  color: #3b63d1;
+  transform: translateX(1rem); }
+
+.navigation__checkbox:checked ~ .navigation__background {
+  transform: scale(80); }
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%; }
+
+.navigation__icon {
+  position: relative;
+  margin-top: 3.5rem; }
+  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: #3b63d1;
+    display: inline-block; }
+  .navigation__icon::before, .navigation__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .2s; }
+  .navigation__icon::before {
+    top: -.8rem; }
+  .navigation__icon::after {
+    top: .8rem; }
+
+.navigation__button:hover .navigation__icon::before {
+  top: -1rem; }
+
+.navigation__button:hover .navigation__icon::after {
+  top: 1rem; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-135deg); }
+
+.form__group:not(:last-child) {
+  margin-bottom: 0rem; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: rbga(#fff, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 90%;
+  display: block;
+  transition: all .3s; }
+
+
+
+  .form__input1 {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rbga(#fff, 0.5);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    margin-bottom: -3rem ;
+  margin-top:-3rem;
+  margin-left: 4rem;
+    transition: all .3s; }
+    .form__input2 {
+      font-size: 1.5rem;
+      font-family: inherit;
+      color: inherit;
+      padding: 1.5rem 2rem;
+      border-radius: 2px;
+      background-color: rbga(#fff, 0.5);
+      border: none;
+      border-bottom: 3px solid transparent;
+      width: 90%;
+      display: block;
+      margin-bottom: 5rem ;
+    margin-top:-5rem;
+    margin-left: 26rem;
+      transition: all .3s; }
+    
+  .form__input :focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #df4e15; }
+    .form__input1 :focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+      border-bottom: 3px solid #df4e15; }
+      .form__input2 :focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid #df4e15; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid #ff7730; }
+    .form__input1:focus:invalid {
+      border-bottom: 3px solid #ff7730; }
+      .form__input2:focus:invalid {
+        border-bottom: 3px solid #ff7730; }
+  .form__input::-webkit-input-placeholder {
+    color: #999; }
+    .form__input1::-webkit-input-placeholder {
+      color: #999; }
+      .form__input2::-webkit-input-placeholder {
+        color: #999; }
+
+.form__label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: block;
+  transition: all .3s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
+
+.form__radio-group {
+  width: 49%;
+  display: inline-block; }
+
+.form__radio-input {
+  display: none; }
+
+.form__radio-label {
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: relative;
+  padding-left: 4.5rem; }
+
+.form__radio-button {
+  height: 3rem;
+  width: 3rem;
+  border: 5px solid #df4e15;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: -.4rem; }
+  .form__radio-button::after {
+    content: "";
+    display: block;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #df4e15;
+    opacity: 0;
+    transition: opacity .2s; }
+
+.form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
+  opacity: 1; }
+
+

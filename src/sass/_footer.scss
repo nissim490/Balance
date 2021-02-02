@@ -1,0 +1,21 @@
+.footer {
+    background-color: rgb(2, 8, 14);
+    grid-column: 1 / -1;
+    grid-row: 4/ 5;
+    @media only screen and (max-width: $bp-medium) {
+   
+        max-width: 118%;
+        margin-left: -2rem;
+    }
+  
+}
+
+.copyright {
+    font-size: 1.4rem;
+    color: $color-grey-light-2;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 70%;
+}

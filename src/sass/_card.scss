@@ -1,0 +1,179 @@
+.authentication {
+    position: relative;
+    margin: 30px;
+    padding: 30px;
+    border: 20px;
+    margin-top: 10rem;
+    height: max-content;
+    width: 430px;
+  
+    overflow: hidden;
+    text-align: center;
+    background: $color-primary;
+    @media only screen and (max-width: $bp-medium) {
+   
+      width: 250px;
+    
+  }
+  }
+
+  .barCartRow{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    @media only screen and (max-width: $bp-medium) {
+      display: flex;
+    
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  }
+  .bar{
+    background-image: linear-gradient( rgba(252, 252, 252, 0.815),rgba(100, 27, 14, 0.35));
+    padding:2rem ;
+    margin-top: 13rem;
+    border-left: 1px solid rgb(29, 29, 51);
+    border-right: 1px solid rgb(29, 29, 51);
+    grid-row: 4 / 5;
+    grid-column: 1/ 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width: $bp-medium) {
+      display: flex;
+      margin-left: -2rem;
+      width: 40rem;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+  }
+  
+  }
+  .barCart {
+    position: relative;
+    margin: 30px;
+   
+    border: 1px solid rgb(29, 29, 51);
+    grid-row: 1/ 2;
+    height: 300px;
+    width: 550px;
+    justify-self: center;
+    overflow: hidden;
+    margin-left: 35rem;
+    background:rgb(255, 255, 255);
+    @media only screen and (max-width: $bp-medium) {
+      width: 40rem;
+      margin-left: -2rem;
+      justify-self: center;
+      height: 27rem;
+     
+    
+  }
+  }
+  .barCartYaer {
+    position: relative;
+    margin: 30px;
+  
+    border: 1px solid rgb(29, 29, 51);
+    grid-row: 1/ 2;
+    grid-column: 2/ 3;
+    height: 300px;
+    width: 550px;
+    justify-self: center;
+    overflow: hidden;
+
+    background:rgb(255, 255, 255);
+    @media only screen and (max-width: $bp-medium) {
+      width: 40rem;
+      margin-left: -2rem;
+      justify-self: center;
+      height: 27rem;
+     
+    
+  }
+  }
+  .barCartYaerType {
+    position: relative;
+    margin: 30px;
+  
+    border: 1px solid rgb(29, 29, 51);
+    grid-row: 1/ 2;
+    grid-column: 3/ 4;
+    height: 300px;
+    width: 550px;
+    justify-self: center;
+    overflow: hidden;
+
+    background:rgb(255, 255, 255);
+    @media only screen and (max-width: $bp-medium) {
+      width: 47rem;
+      margin-left: -2rem;
+      justify-self: center;
+      height: 27rem;
+      display: none !important;
+     
+    
+  }
+
+  }
+  .DoughnutCart {
+    position: relative;
+    margin: 30px;
+  
+    border: 1px solid rgb(29, 29, 51);
+    grid-row: 2/ 3;
+    grid-column: 1/ -1;
+    height: 430px;
+    width: 850px;
+    justify-self: center;
+    margin-left: 22rem;
+    overflow: hidden;
+    text-align: center;
+    background:rgb(255, 255, 255);
+    @media only screen and (max-width: $bp-medium) {
+      margin-left: -2rem;
+      width: 40rem;
+     height: 25rem;
+    
+  }
+  }
+  .CardContiner{
+
+
+    display: grid;
+    grid-column: 2 /-1;
+    grid-row: 3 / 4;
+    grid-template-rows:  64rem ;
+    margin-top: -2rem;
+    grid-template-columns: 1565px  ;
+
+    
+  @media only screen and (max-width: 1536px) {
+   
+    grid-template-columns: 1240px  ;
+  
+}
+@media only screen and (max-width: $bp-medium) {
+   
+  grid-template-columns: 100%  ;
+  margin-top: 1rem;
+  margin-left: -2rem;
+
+}
+  }
+  .card-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-item__image {
+    width: 395px;
+    height: 12rem;
+    margin-left: -2rem;
+    margin-top: -1rem;
+  }

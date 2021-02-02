@@ -1,0 +1,72 @@
+.button {
+  font: inherit;
+
+  margin-top:1rem;
+  color: rgb(248, 248, 248);
+  background: transparent;
+  background-color:   #2c0fa1 ;
+  cursor: pointer;
+  margin-right: 1rem;
+
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.4rem 4rem;
+  display: inline-block;
+  
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+ 
+}
+.button::after {
+  background-color: #fff; }
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background:  #1f0f5c;  
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.button--inverse {
+  background: transparent;
+  color:    #ffffff;; 
+  cursor: pointer;
+}
+.button--animated {
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards; }
+
+.button--inverse:hover,
+.button--inverse:active {
+  background: rgb(100, 27, 14);  
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+
+}
+
+.button--danger {
+  background: rgb(255, 255, 255);  
+  border-color:  #3700ff; 
+}
+
+.button--danger:hover,
+.button--danger:active {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+}
+
+.button:disabled,
+.button:hover:disabled,
+.button:active:disabled {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
